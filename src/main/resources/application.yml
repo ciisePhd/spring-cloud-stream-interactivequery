@@ -1,0 +1,7 @@
+spring.cloud.stream.kafka.streams.binder.configuration.commit.interval.ms: 1000
+spring.cloud.stream.bindings.process-out-0:
+  destination: books-counts
+spring.cloud.stream.bindings.process-in-0:
+  destination: book-topic
+spring.cloud.stream.kafka.streams.binder:
+spring.application.name: kafka-streams-interactivequery
